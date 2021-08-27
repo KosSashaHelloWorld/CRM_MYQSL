@@ -1,7 +1,5 @@
 # CRM_MYQSL
 # That is my first CRM (PHP + MYSQL). That doen't work as i wanted to, but it's ok for the first experience.
-#
-#
 # If u want to try it:
 # 1. Make new schema from CRMB.mwb model using your MySQLWorkbench;
 # 2. Change Connector.php $host, $username and $password if u need;
@@ -9,8 +7,6 @@
 # 4. Add some records (use yyyy-mm-dd format);
 # 5. Add user (login and password) (*2*);
 # 6. Open signup_form.php in your browser (user --> login, password);
-#
-#
 # *1* 
 
 INSERT INTO `db`.`clients`
@@ -76,8 +72,6 @@ VALUES
 '645555555',
 '', '', '', '');
 
-#
-#
 # *2*
 
 INSERT INTO `db`.`users`
