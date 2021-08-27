@@ -9,7 +9,7 @@
 # 6. Open signup_form.php in your browser (user --> login, password);
 # *1* 
 
-INSERT INTO `db`.`clients`
+INSERT INTO `clients`
 (`client_fullname`,
 `client_phone`,
 `client_vk`,
@@ -21,7 +21,7 @@ VALUES
 '291111111',
 '', '', '', '');
 
-INSERT INTO `db`.`clients`
+INSERT INTO `clients`
 (`client_fullname`,
 `client_phone`,
 `client_vk`,
@@ -36,7 +36,7 @@ VALUES
 'somebobformysql@mail.com' ,
 'Bob likes speak about cars. Very funny. Likes dancing.');
 
-INSERT INTO `db`.`clients`
+INSERT INTO `clients`
 (`client_fullname`,
 `client_phone`,
 `client_vk`,
@@ -48,7 +48,7 @@ VALUES
 '173333333',
 '', '', '', '');
 
-INSERT INTO `db`.`clients`
+INSERT INTO `clients`
 (`client_fullname`,
 `client_phone`,
 `client_vk`,
@@ -60,7 +60,7 @@ VALUES
 '914444444',
 '', '', '', '');
 
-INSERT INTO `db`.`clients`
+INSERT INTO `clients`
 (`client_fullname`,
 `client_phone`,
 `client_vk`,
@@ -74,7 +74,7 @@ VALUES
 
 # *2*
 
-INSERT INTO `db`.`users`
+INSERT INTO `users`
 (`login`,
 `password`)
 VALUES
